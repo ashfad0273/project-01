@@ -8,8 +8,12 @@ body {
   width: 100%;
   height: auto;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 section {
-  padding: 0 30px;
+  padding: 30px;
 }
 h1 {
   font-family: "Urbanist", sans-serif;
@@ -24,6 +28,21 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: 85px;
+}
+h4 {
+  color: #f5cc46;
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+h5 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
 }
 p {
   font-family: "Nunito Sans", sans-serif;
@@ -112,4 +131,58 @@ header {
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
+}
+
+/* hero 2 */
+
+.hero-ii {
+  display: flex;
+  gap: 100px;
+}
+.image-hero-ii {
+  padding-top: 100px;
+  width: 80%;
+}
+
+.bg-image-div-hero-ii {
+  background-image: url("resources/Images/0f219ef4e94eac41f45659320dcfa407.jpeg");
+  background-position: center;
+  width: 470px;
+  height: 420px;
+}
+
+.text-side {
+  width: 20%;
+  background: #f5cc46;
+  padding: 30px;
+  width: 370px;
+  height: 240px;
+  margin-top: -540px;
+  margin-left: 160px;
+}
+.text-side h2 {
+  font-size: 72px;
+  font-weight: 700;
+}
+.hero-ii-text-side button a {
+  color: black;
+}
+.hero-ii-text-side button {
+  color: black;
+  margin-top: 20px;
+  background-color: #f5cc46;
+  display: inline-flex;
+  padding: 15px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  /* button text style */
+  color: #fff;
+
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 26px;
 }
