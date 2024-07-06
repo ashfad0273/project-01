@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 85px;
+}
+h2 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+}
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* black header start */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.black-bg {
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.email-location {
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+  margin: auto;
+}
+.email-location div {
+  display: flex;
+  gap: 5px;
+}
+.icons {
+  margin: auto;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  text-align: right;
+  font-size: 15px;
+}
+
+/* black header closed */
+
+/* hero section start */
+.hero {
+  display: flex;
+  margin: auto;
+
+  align-items: center;
+}
+.hero .text {
+  width: 50%;
+}
+.hero .text button {
+  background-color: #f5cc46;
+  display: inline-flex;
+  padding: 15px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  /* button text style */
+  color: #fff;
+
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 26px;
+}
+.hero .hero-iamge {
+  width: 50%;
+}
+.hero .hero-iamge img {
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: url("resources/Masks/Group\ 2\ \(1\).png"); /* For WebKit browsers */
+  mask-image: url("resources/Masks/Group\ 2\ \(1\).png"); /* Standard property */
+  -webkit-mask-size: cover; /* For WebKit browsers */
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
