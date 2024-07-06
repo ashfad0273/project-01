@@ -8,6 +8,9 @@ body {
   width: 100%;
   height: auto;
 }
+section {
+  padding: 0 30px;
+}
 h1 {
   font-family: "Urbanist", sans-serif;
   font-size: 100px;
@@ -70,6 +73,7 @@ header {
 .hero {
   display: flex;
   margin: auto;
+  height: 100vh;
 
   align-items: center;
 }
@@ -77,6 +81,7 @@ header {
   width: 50%;
 }
 .hero .text button {
+  margin-top: 20px;
   background-color: #f5cc46;
   display: inline-flex;
   padding: 15px 32px;
@@ -96,6 +101,7 @@ header {
 .hero .hero-iamge {
   width: 50%;
 }
+
 .hero .hero-iamge img {
   justify-content: right;
   width: 100%;
